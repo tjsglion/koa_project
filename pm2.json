@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "myapp",
+      "exec": "app.js",
+      "error_file": "logs/koa_pm2_project_error.log",
+      "out_file": "logs/koa_pm2_project_out_file.log",
+      "watch": true,
+      "exec_mode": "cluster"
+    }
+  ]
+}

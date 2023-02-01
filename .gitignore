@@ -1,0 +1,11 @@
+**/node_modules
+
+/dist
+/.vscode
+
+/coverage
+.idea
+yarn.lock
+# package-lock.json
+*bak
+.vscode

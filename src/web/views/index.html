@@ -1,0 +1,18 @@
+{% extends '../layouts/layout.html' %}
+
+{% block title %}首页{% endblock %}
+
+{% block head %} 
+  {% parent %}
+
+  <!-- injectCss -->
+{% endblock %}
+
+{% block content %}
+  当前tab: {{activeKey}}
+  <p>this is index pages</p>
+{% endblock %}
+
+{% block script %}
+  <!-- injectJs -->
+{% endblock %}
